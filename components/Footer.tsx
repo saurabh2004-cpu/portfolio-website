@@ -50,12 +50,12 @@ export default function Footer() {
     { label: 'Contact', href: '#contact' },
   ];
 
-  const socialLinks = [
-    { label: 'Instagram', icon: <InstagramIcon size={20} />, url: 'https://www.instagram.com', color: 'bg-[#E4405F]' },
-    { label: 'Facebook', icon: <FacebookIcon size={20} />, url: 'https://www.facebook.com', color: 'bg-[#1877F2]' },
-    { label: 'LinkedIn', icon: <LinkedinIcon size={20} />, url: 'https://www.linkedin.com', color: 'bg-[#0077B5]' },
-    { label: 'Twitter', icon: <TwitterIcon size={18} />, url: 'https://www.twitter.com', color: 'bg-[#1DA1F2]' },
-  ];
+  // const socialLinks = [
+  //   // { label: 'Instagram', icon: <InstagramIcon size={20} />, url: 'https://www.instagram.com', color: 'bg-[#E4405F]' },
+  //   // { label: 'Facebook', icon: <FacebookIcon size={20} />, url: 'https://www.facebook.com', color: 'bg-[#1877F2]' },
+  //   { label: 'LinkedIn', icon: <LinkedinIcon size={20} />, url: 'https://www.linkedin.com/in/saurabh-bodakhe-508792247', color: 'bg-[#0077B5]' },
+  //   // { label: 'Twitter', icon: <TwitterIcon size={18} />, url: 'https://www.twitter.com', color: 'bg-[#1DA1F2]' },
+  // ];
 
   return (
     <footer className="bg-cyan-800 border-t border-slate-800/50">
@@ -88,7 +88,7 @@ export default function Footer() {
           </div>
 
           {/* Social Section */}
-          <div>
+          {/* <div>
             <h3 className={`${raleway.className} text-xl font-bold text-white mb-6 uppercase tracking-wider`}>Follow</h3>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -103,9 +103,9 @@ export default function Footer() {
                 >
                   {social.icon}
                 </a>
-              ))}
-            </div>
-          </div>
+              ))} */}
+          {/* </div>
+          </div> */}
         </div>
 
         {/* Divider */}

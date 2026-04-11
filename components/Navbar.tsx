@@ -54,10 +54,10 @@ export default function Navbar() {
   ];
 
   const socialLinks = [
-    { icon: 'instagram', url: 'https://www.instagram.com', color: 'bg-[#E4405F]' },
-    { icon: 'facebook', url: 'https://www.facebook.com', color: 'bg-[#1877F2]' },
-    { icon: 'linkedin', url: 'https://www.linkedin.com', color: 'bg-[#0077B5]' },
-    { icon: 'twitter', url: 'https://www.twitter.com', color: 'bg-[#1DA1F2]' },
+    // { icon: 'instagram', url: 'https://www.instagram.com', color: 'bg-[#E4405F]' },
+    // { icon: 'facebook', url: 'https://www.facebook.com', color: 'bg-[#1877F2]' },
+    { icon: 'linkedin', url: 'https://www.linkedin.com/in/saurabh-bodakhe-508792247', color: 'bg-[#0077B5]' },
+    // { icon: 'twitter', url: 'https://www.twitter.com', color: 'bg-[#1DA1F2]' },
   ];
 
   return (
@@ -101,10 +101,10 @@ export default function Navbar() {
                 className={`w-9 h-9 rounded-full flex items-center justify-center text-white transition-all hover:scale-110 hover:opacity-90 ${social.color}`}
                 aria-label={social.icon}
               >
-                {social.icon === 'instagram' && <InstagramIcon size={22} />}
-                {social.icon === 'facebook' && <FacebookIcon size={22} />}
+                {/* {social.icon === 'instagram' && <InstagramIcon size={22} />} */}
+                {/* {social.icon === 'facebook' && <FacebookIcon size={22} />} */}
                 {social.icon === 'linkedin' && <LinkedinIcon size={22} />}
-                {social.icon === 'twitter' && <TwitterIcon size={22} />}
+                {/* {social.icon === 'twitter' && <TwitterIcon size={22} />} */}
               </a>
             ))}
           </div>
