@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { Raleway, Poppins } from 'next/font/google';
+import Image from 'next/image';
 
 const raleway = Raleway({
   subsets: ['latin'],
@@ -59,12 +60,9 @@ export default function About() {
           }`}>
           {/* Image Placeholder */}
           <div className="relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg opacity-25 group-hover:opacity-50 transition-opacity blur-lg"></div>
-            <div className="relative aspect-square bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg overflow-hidden flex items-center justify-center border border-slate-700">
-              <div className="text-center">
-                <p className="text-slate-400 text-lg mb-2">Portfolio Image</p>
-                <p className="text-slate-500 text-sm">[Profile Photo]</p>
-              </div>
+            <div className="relative aspect-square w-3/4 mx-auto bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg overflow-hidden flex items-center justify-center border border-slate-700">
+               <Image src="/profile/portfolio-profile-img.jpeg" alt="Profile Photo" className="text-center" fill>
+              </Image>
             </div>
           </div>
 
