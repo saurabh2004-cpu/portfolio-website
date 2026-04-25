@@ -61,7 +61,7 @@ export default function About() {
           {/* Image Placeholder */}
           <div className="relative group">
             <div className="relative aspect-square w-3/4 mx-auto bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg overflow-hidden flex items-center justify-center border border-slate-700">
-               <Image src="/profile/portfolio-profile-img.jpeg" alt="Profile Photo" className="text-center" fill>
+               <Image src="/profile/profile2.jpeg" alt="Profile Photo" className="text-center" fill>
               </Image>
             </div>
           </div>
