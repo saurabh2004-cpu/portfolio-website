@@ -109,7 +109,7 @@ const projects: Project[] = [
         title: 'Para Ella For Her (Healthcare Website)',
         description:
             'Developed a modern and responsive healthcare website for a gynecologist clinic focused on women’s wellness and treatments. Built smooth UI sections, service pages, and SEO-friendly layouts with an optimized user experience.',
-        image: '/projects/paraella-1.png',
+        image: '/projects/paraElla-1.png',
         technologies: [
             'Next.js',
             'Tailwind CSS',
