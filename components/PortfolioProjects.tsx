@@ -104,6 +104,44 @@ const projects: Project[] = [
         githubLink: 'https://github.com/saurabh2004-cpu/pharmainc-frontend',
         category: 'SaaS Platform',
     },
+    {
+        id: 4,
+        title: 'Para Ella For Her (Healthcare Website)',
+        description:
+            'Developed a modern and responsive healthcare website for a gynecologist clinic focused on women’s wellness and treatments. Built smooth UI sections, service pages, and SEO-friendly layouts with an optimized user experience.',
+        image: '/projects/paraella-1.png',
+        technologies: [
+            'Next.js',
+            'Tailwind CSS',
+            'Node.js',
+            'MongoDB',
+            'AWS',
+            'Framer Motion'
+        ],
+        liveLink: 'https://paraellaforher.com/',
+        githubLink: 'https://github.com/saurabh2004-cpu/paraella-for-her',
+        category: 'Healthcare Website',
+    },
+    {
+        id: 5,
+        title: 'ApexDhan (LMS & Affiliate Platform)',
+        description:
+            'Built a learning management platform offering courses in Digital Marketing, Freelancing, Stock Market, and Content Creation along with an affiliate system. Developed scalable frontend and backend architecture with  and interactive UI.',
+        image: '/projects/apexdhan-1.png',
+        technologies: [
+            'Next.js',
+            'Tailwind CSS',
+            'Node.js',
+            'Express.js',
+            'MongoDB',
+            'AWS S3',
+            'CloudFront',
+            'Framer Motion'
+        ],
+        liveLink: 'https://apexdhan.com/',
+        githubLink: 'https://github.com/saurabh2004-cpu/apex-dhan',
+        category: 'LMS Platform',
+    },
 ];
 
 const categories = ['All', 'E-commerce', 'Business Website', 'SaaS Platform'];
